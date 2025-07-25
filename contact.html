@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Tajura Properties</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header (same as index.html) -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="photo_2024-11-24_01-54-29.jpg" style="width: 50px; height: 50px; border-radius: 50%;"></a>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="properties.html">Properties</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Page -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Contact Us</h1>
+                <p>Get in touch with our team for any inquiries or assistance</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Our Office</h3>
+                        <p>Bole medhanialem<br>Samia Homes</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>Main: +251 947063989
+                        <br>Sales: +251 977579361</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>info@tajuraproperties.com<br>support@tajuraproperties.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Working Hours</h3>
+                        <p>Monday - friday: 8:00 AM - 5:00 PM<br>Saturday: 7:00 AM - 12:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contact-form" class="contact-form" action="/php/contact.php">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <select id="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="property">Property Inquiry</option>
+                                <option value="appointment">Schedule Appointment</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select></div>
+                            <div class="form-group">
+                                <textarea id="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn" name="sendMessage">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.453441399331!2d-118.3999729246878!3d34.07368007314392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc85a09d088d%3A0x4a01b8a1c0c1a5a5!2sBeverly%20Hills%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+                <div class="contact-agents">
+                    <h2>Our Agents</h2>
+                    <div class="agents-grid">
+                        <div class="agent-card">
+                            <div class="agent-image">
+                                <img src="agent1.jpg">
+                            </div>
+                            <div class="agent-details">
+                                <h3>Remedan Junid</h3>
+                                <p class="agent-title">Senior Real Estate Agent</p>
+                                <p><i class="fas fa-phone"></i> +251 947063989</p>
+                                <p><i class="fas fa-envelope"></i> remedanjunid@gmail.com</p>
+                                <a class="btn"href="mailto:remedanjunid@gmail.com">Contact Remedan</a>
+                            </div>
+                        </div>
+                        <div class="agent-card">
+                            <div class="agent-image">
+                                <img src="client2.JPG">
+                            </div>
+                            <div class="agent-details">
+                                <h3>Remedan Junid</h3>
+                                <p class="agent-title">Commercial Property Specialist</p>
+                                <p><i class="fas fa-phone"></i> +251 977579361</p>
+                                <p><i class="fas fa-envelope"></i> junidremedan@gmail.com</p>
+                                <a href="mailto:junidremedan@gmail.com" class="btn">Contact Remrdan</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+    
+                    
+        </section>
+    
+        <!-- Footer (same as index.html) -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>Tajura Properties</h3>
+                        <p>Your trusted partner in finding the perfect home. We specialize in residential and commercial properties across the country.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://t.me/remetajura"><i class="fab fa-telegram"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="properties.html">Properties</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">About Us</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h3>Contact Us</h3>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> Bole medhanialem</li>
+                            <li><i class="fas fa-phone"></i>+251947063989</li>
+                            <li><i class="fas fa-envelope"></i> info@tajuraproperties.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 Tajura Properties. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="script.js"></script>
+        <script src="form-validation.js"></script>
+    </body>
+    </html>
